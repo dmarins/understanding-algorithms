@@ -1,4 +1,3 @@
-```markdown
 # 📚 understanding-algorithms
 
 Repository dedicated to the study and implementation of fundamental algorithms and data structures using the Go programming language. This project serves as a practical exercise book to enhance knowledge in Go and Computer Science, focusing on simplicity and testability.
@@ -43,4 +42,3 @@ It is highly recommended to run tests to verify the correctness of the implement
 ## 📄 License (Optional)
 
 This project is licensed under the [MIT License](LICENSE).
-```
