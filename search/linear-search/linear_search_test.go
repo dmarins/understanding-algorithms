@@ -3,7 +3,7 @@ package linearsearch_test
 import (
 	"testing"
 
-	linearsearch "github.com/dmarins/understanding-algorithms/linear-search"
+	linearsearch "github.com/dmarins/understanding-algorithms/search/linear-search"
 	"github.com/stretchr/testify/assert"
 )
 

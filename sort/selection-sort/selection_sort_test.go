@@ -3,7 +3,7 @@ package selectionsort_test
 import (
 	"testing"
 
-	selectionsort "github.com/dmarins/understanding-algorithms/selection-sort"
+	selectionsort "github.com/dmarins/understanding-algorithms/sort/selection-sort"
 	"github.com/stretchr/testify/assert"
 )
 

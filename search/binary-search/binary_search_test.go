@@ -3,7 +3,7 @@ package binarysearch_test
 import (
 	"testing"
 
-	binarysearch "github.com/dmarins/understanding-algorithms/binary-search"
+	binarysearch "github.com/dmarins/understanding-algorithms/search/binary-search"
 	"github.com/stretchr/testify/assert"
 )
 
