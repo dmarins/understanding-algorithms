@@ -6,22 +6,22 @@ func QuickSort(numbers []int) []int {
 		return numbers
 	}
 
-	pivo := numbers[0]
-	var minor []int
-	var major []int
+	pivot := numbers[0]
+	var smaller []int
+	var larger []int
 
 	for _, item := range numbers[1:] {
-		if item <= pivo {
-			minor = append(minor, item)
+		if item <= pivot {
+			smaller = append(smaller, item)
 		} else {
-			major = append(major, item)
+			larger = append(larger, item)
 		}
 	}
 
-	sortedMenores := QuickSort(minor)
-	result := append(sortedMenores, pivo)
-	sortedMaiores := QuickSort(major)
-	result = append(result, sortedMaiores...)
+	orderedLarger := QuickSort(smaller)
+	result := append(orderedLarger, pivot)
+	orderedSmaller := QuickSort(larger)
+	result = append(result, orderedSmaller...)
 
 	return result
 }
