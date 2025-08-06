@@ -1,4 +1,4 @@
-.PHONY: tests test-binary-search test-selection-sort
+.PHONY: tests test-binary-search test-selection-sort test-quick-sort
 
 tests: 
 	go clean -testcache
@@ -6,12 +6,16 @@ tests:
 
 test-linear-search:
 	@echo "▶️  Run tests for linear_search.go..."
-	go test -cover -p=1 ./linear-search/
+	go test -cover -p=1 ./search/linear-search/
 
 test-binary-search:
 	@echo "▶️  Run tests for binary_search.go..."
-	go test -cover -p=1 ./binary-search/
+	go test -cover -p=1 ./search/binary-search/
 
 test-selection-sort:
 	@echo "▶️  Run tests for selection_sort.go..."
-	go test -cover -p=1 ./selection-sort/
+	go test -cover -p=1 ./sort/selection-sort/
+
+test-quick-sort:
+	@echo "▶️  Run tests for quick_sort.go..."
+	go test -cover -p=1 ./sort/quick-sort/
